@@ -45,6 +45,9 @@ export default function Help() {
         </h4>
         <h2>Here is an example</h2>
         <img src={example} width="100%" alt="full example" />
+          <a href="/" style={{width:75}} className="btn-wrapper">
+            Done
+          </a>
       </div>
     </div>
   )
