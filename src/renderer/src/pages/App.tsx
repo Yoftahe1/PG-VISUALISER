@@ -2,6 +2,7 @@ import Split from 'react-split'
 import { createContext, useState } from 'react'
 
 import Navbar from '../components/navbar'
+import Editor from '@renderer/components/editor'
 
 export const CodeContext = createContext<any>(null)
 
@@ -38,7 +39,7 @@ const App = () => {
             >
               {collapsedIdx === 1 ? '<' : '>'}
             </div>
-            {/* <Editor /> */}
+            <Editor />
           </div>
           <div className="visualizer-wrapper">
             {/* <Visualizer /> */}
