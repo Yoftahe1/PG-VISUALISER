@@ -25,6 +25,7 @@
     "@codemirror/theme-one-dark": "^6.1.0",
     "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/utils": "^3.0.0",
+    "@myonim/react-zoom-pan-pinch": "^2.1.3",
     "codemirror": "^6.0.1",
     "electron-updater": "^6.1.7",
     "nearley": "^2.20.1",

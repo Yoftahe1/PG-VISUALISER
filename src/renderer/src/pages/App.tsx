@@ -3,6 +3,7 @@ import { createContext, useState } from 'react'
 
 import Navbar from '../components/navbar'
 import Editor from '@renderer/components/editor'
+import Visualizer from '@renderer/components/visualizer'
 
 export const CodeContext = createContext<any>(null)
 
@@ -42,7 +43,7 @@ const App = () => {
             <Editor />
           </div>
           <div className="visualizer-wrapper">
-            {/* <Visualizer /> */}
+            <Visualizer />
           </div>
         </Split>
       </CodeContext.Provider>
