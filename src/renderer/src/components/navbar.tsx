@@ -5,7 +5,7 @@ import { CodeContext } from '../pages/App';
 // styles
 import classes from './navbar.module.css';
 import { useContext } from 'react';
-
+import logo from "../assets/pg-ic.svg"
 export default function Navbar() {
   const { viewData, setViewData } = useContext(CodeContext);
 
@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <div className={classes.wrapper}>
       <a href="/" className={classes.logo}>
-        <img src="./pg-ic.svg" alt="pg-logo" />
+        <img src={logo} alt="pg-logo" />
         <h1>Schema Visually</h1>
       </a>
       <div className={classes.wrapper}>
